@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #dedede;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  background: linear-gradient(145deg, #222222, #1d1d1d);
+}
+.container {
+  background: linear-gradient(145deg, #222222, #1d1d1d);
+  box-shadow: 25px 25px 50px #191919, -25px -25px 50px #272727;
+  width: 1100px;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 20px;
+  font-style: italic;
+}
+
+ul {
+  margin-top: 20px;
+}
+li {
+  display: inline;
+  margin-right: 15px;
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 0 30px;
+}
+
+.hero-img img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.hero-detail {
+  width: 600px;
+}
+
+.hero-detail h2 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.hero-detail h4 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.hero-detail h2,
+.hero-detail h4 {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: baseline;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #000000 0%,
+    #434343 51%,
+    #000000 100%
+  );
+}
+.btn-grad {
+  margin: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #dedede;
+  box-shadow: 0 0 2px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #dedede;
+  text-decoration: none;
+}
+
+.post {
+  /* From https://css.glass */
+  background: rgba(70, 69, 69, 0.2);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.8px);
+  -webkit-backdrop-filter: blur(13.8px);
+
+  display: flex;
+  flex-direction: column;
+  padding: 30px 70px;
+  margin-top: 50px;
+}
+
+.post-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.post-head h3 {
+  color: #dedede;
+  font-size: 22px;
+  line-height: 60px;
+}
+
+.post-head a {
+  font-size: 16px;
+}
+
+.post-body {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.post-body-detail {
+  /* From https://css.glass */
+  background: rgba(251, 251, 251, 0.08);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.8px);
+  -webkit-backdrop-filter: blur(13.8px);
+
+  padding: 20px 25px;
+}
+
+.post-body-detail h2 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.post-body-detail p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.post-body-info {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.fitur {
+  padding: 30px 70px;
+  margin-top: 20px;
+}
+
+.fitur-detail {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin: 20px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #434343;
+}
+
+.fitur-img img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.fitur-detail-text h2 {
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.fitur-detail-text label:first-of-type {
+  background-color: #434343;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 2px 7px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.fitur-detail-text label {
+  font-size: 18px;
+}
+
+.fitur-detail-text p {
+  margin-top: 17px;
+  font-size: 17px;
+}
+
+.footer {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-sosmed {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 12px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
